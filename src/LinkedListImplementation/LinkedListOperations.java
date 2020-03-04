@@ -12,7 +12,14 @@ public class LinkedListOperations {
       new_node.setNextRef(head);
       head = new_node;
     }
-
   }
+
+    public void deleteBeginningNode() {
+      if (head == null) {
+        System.out.println("Linked List is Empty");
+      } else {
+        head = head.getNextRef();
+      }
+    }
 
 }
