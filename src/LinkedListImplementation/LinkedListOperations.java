@@ -41,6 +41,10 @@ Node temp=head;
 if(temp==null){
     System.out.println("Linked list is Empty");
 }
+while(temp!=null){
+  System.out.println(temp.getData()+" ");
+  temp=temp.getNextRef();
+}
 
 }
 
