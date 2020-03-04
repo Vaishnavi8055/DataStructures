@@ -22,4 +22,20 @@ public class LinkedListOperations {
       }
     }
 
+  public void deleteLinkedList() {
+    head = null;
+  }
+
+  public boolean SearchNode(int element) {
+    Node temp = head;
+    while (temp != null) {
+      if (temp.getData() == element)
+        return true;
+      temp = temp.getNextRef();
+    }
+    return false;
+  }
+
+
+
 }
