@@ -8,5 +8,9 @@ public class Main {
         Node node2 = new Node(75);
         Node node3 = new Node(12);
 
+        linkedListOperations.head.setNextRef(node1);
+        node1.setNextRef(node2);
+        node2.setNextRef(node3);
+
     }
 }
