@@ -23,4 +23,5 @@ public class Node {
     public void setNextRef(Node nextRef) {
         this.nextRef = nextRef;
     }
+
 }
