@@ -12,5 +12,25 @@ public class Main {
         node1.setNextRef(node2);
         node2.setNextRef(node3);
 
+        System.out.println("My Linked list is :");
+        linkedListOperations.displayLinkedList();
+
+
+        System.out.println("Insertion at Beginning, Now My Linked List is: ");
+        linkedListOperations.insertAtBeginning(56);
+        linkedListOperations.displayLinkedList();
+
+        System.out.println("Deletion of Beginning Node :");
+        linkedListOperations.deleteBeginningNode();
+        linkedListOperations.displayLinkedList();
+
+
+        System.out.println("Deletion Of Linked List");
+        linkedListOperations.deleteLinkedList();
+
+        System.out.println("Now the Linked list is Deleted :");
+        System.out.println();
+        linkedListOperations.displayLinkedList();
+
     }
 }
