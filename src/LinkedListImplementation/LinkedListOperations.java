@@ -36,6 +36,9 @@ public class LinkedListOperations {
     return false;
   }
 
+public void displayLinkedList(){
 
+
+}
 
 }
