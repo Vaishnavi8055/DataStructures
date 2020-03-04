@@ -14,13 +14,13 @@ public class LinkedListOperations {
     }
   }
 
-    public void deleteBeginningNode() {
-      if (head == null) {
-        System.out.println("Linked List is Empty");
-      } else {
-        head = head.getNextRef();
-      }
+  public void deleteBeginningNode() {
+    if (head == null) {
+      System.out.println("Linked List is Empty");
+    } else {
+      head = head.getNextRef();
     }
+  }
 
   public void deleteLinkedList() {
     head = null;
@@ -36,16 +36,14 @@ public class LinkedListOperations {
     return false;
   }
 
-public void displayLinkedList(){
-Node temp=head;
-if(temp==null){
-    System.out.println("Linked list is Empty");
-}
-while(temp!=null){
-  System.out.println(temp.getData()+" ");
-  temp=temp.getNextRef();
-}
-
-}
-
+  public void displayLinkedList() {
+    Node temp = head;
+    if (temp == null) {
+      System.out.println("Linked list is Empty");
+    }
+    while (temp != null) {
+      System.out.println(temp.getData() + " ");
+      temp = temp.getNextRef();
+    }
+  }
 }
