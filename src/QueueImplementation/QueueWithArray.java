@@ -62,4 +62,14 @@ public class QueueWithArray {
         System.out.println("Queue is Deleted Now..!");
     }
 
+    public void displayQueue(){
+        if(isQueueEmpty()){
+            System.out.println("Queue is Empty..!");
+        }
+        else if(isQueueFull()){
+            for(int i=beginning;i<=top;i++){
+                System.out.println(arr[i]+" ");
+            }
+        }
+    }
 }
