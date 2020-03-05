@@ -10,4 +10,12 @@ public class QueueWithArray {
         this.top = -1;
         this.beginning = -1;
     }
+
+    public boolean isQueueFull() {
+        if (top == arr.length - 1) {
+            return true;
+        } else {
+            return false;
+        }
+    }
 }
