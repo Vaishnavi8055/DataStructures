@@ -18,4 +18,13 @@ public class QueueWithArray {
             return false;
         }
     }
+
+    public boolean isQueueEmpty() {
+        if (beginning == -1 || top == arr.length) {
+            return true;
+        } else {
+            return false;
+        }
+    }
 }
+
