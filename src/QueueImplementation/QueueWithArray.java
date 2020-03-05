@@ -39,5 +39,17 @@ public class QueueWithArray {
             arr[top] = data;
         }
     }
-}
 
+    public void dequeue() {
+        if (isQueueEmpty()) {
+            System.out.println("UnderFlow occurred As Queue is Empty..!");
+        } else {
+            System.out.println("The element Deleted is : " + arr[beginning]);
+            beginning++;
+            if (beginning > top) {
+                top = beginning = -1;
+            }
+        }
+    }
+
+}
