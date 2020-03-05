@@ -55,4 +55,11 @@ public class QueueWithArray {
     public void peekInQueue() {
         System.out.println(arr[beginning]);
     }
+
+    public void deleteQueue(){
+        top=-1;
+        beginning=-1;
+        System.out.println("Queue is Deleted Now..!");
+    }
+
 }
