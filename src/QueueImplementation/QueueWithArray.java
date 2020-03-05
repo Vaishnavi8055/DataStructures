@@ -52,4 +52,7 @@ public class QueueWithArray {
         }
     }
 
+    public void peekInQueue() {
+        System.out.println(arr[beginning]);
+    }
 }
