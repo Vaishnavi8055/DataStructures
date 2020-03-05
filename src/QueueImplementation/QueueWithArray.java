@@ -26,5 +26,18 @@ public class QueueWithArray {
             return false;
         }
     }
+
+    public void enqueue(int data) {           //from Rear End of Queue
+        if (isQueueFull()) {
+            System.out.println("Overflow occurred As Queue is Full..!");
+        } else if (isQueueEmpty()) {
+            beginning++;
+            top++;
+            arr[top] = data;
+        } else {
+            top++;
+            arr[top] = data;
+        }
+    }
 }
 
