@@ -5,6 +5,9 @@ public class QueueWithArray {
     int beginning;
     int arr[];
 
-
+    public QueueWithArray(int sizeOfArray) {
+        arr = new int[sizeOfArray];
+        this.top = -1;
+        this.beginning = -1;
+    }
 }
-
