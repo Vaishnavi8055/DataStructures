@@ -26,6 +26,11 @@ public class QueueUsingLinkedList {
            front=new_node;
            size++;
         }
+       else{
+           rear.setNext(new_node);
+           rear=new_node;
+           size++;
+       }
 
     }
 
