@@ -69,5 +69,9 @@ public class QueueUsingLinkedList {
         }
     }
 
+    public int getSize(){
+        return size;
+    }
+
 }
 
