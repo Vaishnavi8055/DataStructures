@@ -5,7 +5,7 @@ public class QueueUsingLinkedList {
     private Node rear;
     private int size;
 
-    public QueueUsingLinkedList(Node front, Node rear, int size) {
+    public QueueUsingLinkedList() {
         front = null;
         rear = null;
         size = 0;
@@ -31,7 +31,20 @@ public class QueueUsingLinkedList {
            rear=new_node;
            size++;
        }
-
     }
 
+    public void dequeue(){
+        if(front!=null){
+            if(front.getNext()!=null){
+                front=front.getNext();
+                size--;
+            }
+            else{
+                front=null;
+                rear=null;
+                size--;
+            }
+        }
+    }
 }
+
