@@ -5,4 +5,10 @@ public class QueueUsingLinkedList {
     private Node rear;
     private int size;
 
+    public QueueUsingLinkedList(Node front, Node rear, int size) {
+        front = null;
+        rear = null;
+        size = 0;
+    }
+
 }
