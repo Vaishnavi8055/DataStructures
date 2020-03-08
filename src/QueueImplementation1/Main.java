@@ -17,6 +17,9 @@ public class Main {
         System.out.println("peak Operation :");
         queueUsingLinkedList.peek();
 
+        System.out.println("size of Queue :");
+        queueUsingLinkedList.getSize();
+        System.out.println(queueUsingLinkedList.getSize());
 
     }
 }
