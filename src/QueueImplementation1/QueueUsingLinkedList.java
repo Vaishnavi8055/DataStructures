@@ -20,10 +20,13 @@ public class QueueUsingLinkedList {
     }
 
     public void Enqueue(int element){
-        Node new_node=new Node(element)
+        Node new_node=new Node(element);
        if(front==null){
            rear=new_node;
+           front=new_node;
+           size++;
         }
+
     }
 
 }
