@@ -56,6 +56,18 @@ public class QueueUsingLinkedList {
         }
     }
 
+    public void display(){
+        if(isQueueEmpty()){
+            System.out.println("Queue is Empty..!");
+        }
+        else{
+            Node temp=front;
+            while(temp!=null){
+                System.out.println(temp.getData());
+                temp=temp.getNext();
+            }
+        }
+    }
 
 }
 

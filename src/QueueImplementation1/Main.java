@@ -10,7 +10,12 @@ public class Main {
         queueUsingLinkedList.Enqueue(67);
         queueUsingLinkedList.display();
 
+        System.out.println("Dequeue Operation,Now queue is ..");
+         queueUsingLinkedList.dequeue();
+         queueUsingLinkedList.display();
 
+        System.out.println("peak Operation :");
+        queueUsingLinkedList.peek();
 
 
     }
