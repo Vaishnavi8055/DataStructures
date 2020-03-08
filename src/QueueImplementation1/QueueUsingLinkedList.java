@@ -11,9 +11,12 @@ public class QueueUsingLinkedList {
         size = 0;
     }
 
-    public void isQueueEmpty(){
-        if(front==null){
-
+    public boolean isQueueEmpty(){
+        if(size==0){
+            return true;
         }
+        else
+            return false;
     }
+
 }
