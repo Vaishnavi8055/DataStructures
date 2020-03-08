@@ -47,17 +47,15 @@ public class QueueUsingLinkedList {
         }
     }
 
-    public void display(){
-        if(isQueueEmpty()){
-            System.out.println("Queue is Empty..!");
+    public void peek(){
+        if(!isQueueEmpty()){
+            System.out.println(front.getData());
         }
-        else{
-            Node temp=front;
-            while(temp!=null){
-                System.out.println(temp.getData());
-                temp=temp.getNext();
-            }
+        else {
+            System.out.println("Empty Queue..!");
         }
     }
+
+
 }
 
